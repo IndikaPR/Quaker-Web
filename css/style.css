@@ -161,6 +161,7 @@ main {
   margin-top: 40px;
   font-weight: 700;
   font-size: 15px;
+  color: #494949;
 }
 
 .hero-card-start {
@@ -172,6 +173,7 @@ main {
 }
 
 .hero-card-paragraph {
+  color: #494949;
   font-weight: 700;
   font-size: 15px;
 }
