@@ -109,6 +109,11 @@ main {
 /*///////////////////////////////*/
 /*SECTION-1*/
 /*///////////////////////////////*/
+
+.hero-heading {
+  padding: 145px 0 100px 0;
+}
+
 .heading-primary {
   font-size: 48px;
   font-weight: 900;
