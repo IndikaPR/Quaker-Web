@@ -102,9 +102,6 @@ main {
 }
 
 /*SECTION - -1*/
-.row {
-  align-items: center;
-}
 
 .heading-primary {
   font-size: 48px;
@@ -140,8 +137,19 @@ main {
   border-radius: 5px;
 }
 
-.row-img-1 {
+.row-img {
+  position: relative;
   width: 100%;
+  height: auto;
+}
+
+.row-img-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 /*SECTION-2*/
