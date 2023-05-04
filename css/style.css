@@ -222,10 +222,12 @@ main {
 .choose-paragraph {
   position: relative;
   z-index: 5;
-  padding: 170px 0 135px 0;
+  padding: 250px 0 170px 0;
 }
 
-.section-3 img::before {
+.section-3::before {
+  content: "";
+  position: absolute;
   right: 40%;
   width: 20%;
   height: 100%;
