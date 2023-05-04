@@ -201,5 +201,65 @@ main {
 }
 
 /*/ //////////////////////////////*/
+/*SECTION-2*/
+/*///////////////////////////////*/
+.section-3 {
+  margin-top: 50px;
+  position: relative;
+}
+
+.section-3 img {
+  position: absolute;
+  width: 60%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.row {
+  justify-content: right;
+}
+
+.choose-paragraph {
+  position: relative;
+  z-index: 5;
+  padding: 170px 0 135px 0;
+}
+
+.section-3 img::before {
+  right: 40%;
+  width: 20%;
+  height: 100%;
+  background: linear-gradient(
+    269.96deg,
+    #ffffff 24.42%,
+    rgba(255, 255, 255, 0) 59.38%
+  );
+  z-index: 2;
+}
+
+.choose-paragraph-heading {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 35px;
+}
+.choose-paragraph-1 {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 35px;
+}
+
+.choose-paragraph-2 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/*/ //////////////////////////////*/
+/*SECTION-4*/
+/*///////////////////////////////*/
+.section-4 {
+  margin-top: 50px;
+}
+
+/*/ //////////////////////////////*/
 /*footer*/
 /*///////////////////////////////*/
