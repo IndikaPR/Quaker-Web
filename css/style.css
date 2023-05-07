@@ -527,7 +527,10 @@ textarea {
   padding-top: 70px;
   padding-bottom: 80px;
   font-size: 14px;
-  line-height: 30px;
+}
+
+footer .container .row {
+  justify-content: space-between;
 }
 
 .footer-nav-flex {
@@ -554,7 +557,7 @@ textarea {
   text-decoration: none;
   text-transform: capitalize;
   color: #ffffff;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 500;
 }
 
@@ -587,8 +590,30 @@ textarea {
   font-size: 30px;
 }
 
-/* .footer-align {
+.footer-align {
+  height: 100%;
+}
+
+.footer-align ul {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-} */
+  height: 100%;
+}
+
+.footer-4 ul {
+  padding-left: 0;
+}
+
+.footer-4 .footer-align ul li a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.footer-4 .footer-align ul li:first-child {
+  display: flex;
+  justify-content: space-between;
+}
