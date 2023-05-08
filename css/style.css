@@ -535,7 +535,7 @@ footer .container .row {
 
 .footer-nav-flex {
   display: flex;
-  /* justify-content: space-around; */
+  justify-content: space-around;
 }
 
 .footer-nav-flex ul li {
