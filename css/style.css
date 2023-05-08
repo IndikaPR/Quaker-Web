@@ -262,12 +262,12 @@ main {
 
 .service {
   background: #f2f4f8;
-  padding-top: 150px;
+  padding-top: 100px;
 }
 
 .service-container {
   text-align: center;
-  margin-bottom: -40px;
+  margin-bottom: 100px;
 }
 
 .service-container h1 {
@@ -348,7 +348,7 @@ main {
 /*///////////////////////////////*/
 
 .section-5 {
-  margin-top: 270px;
+  margin-top: 50px;
   position: relative;
 }
 
@@ -529,7 +529,7 @@ textarea {
   font-size: 14px;
 }
 
-footer .container .row {
+/* footer .container .row {
   justify-content: space-between;
 }
 
@@ -588,7 +588,7 @@ footer .container .row {
 
 /* .footer-social-media a i {
   border-radius: 100%;
-} */
+} *
 
 .footer-align {
   height: 100%;
@@ -626,8 +626,111 @@ footer .container .row {
   margin-top: 0;
   margin-bottom: 0;
   margin-right: 5px;
-}
+} */
 
 /* .footer-social-media a i {
   border-radius: 50%;
 } */
+
+.footer img {
+  width: 50px;
+  height: 50px;
+}
+
+.footer-list-flex {
+  column-count: 2;
+}
+
+.footer-list-flex li {
+  list-style: none;
+}
+
+.footer-list-flex li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: capitalize;
+  line-height: 35px;
+}
+
+.footer-social-media {
+  margin-bottom: 25px;
+}
+
+.footer-social-media a {
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 50%;
+  font-size: 22px;
+  margin: 10px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.footer-days p {
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.footer-days {
+  column-count: 2;
+}
+
+.footer-info {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 97%;
+}
+
+.footer-info a {
+  color: #ffffff;
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.footer-logo p {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.footer-edm p {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.footer-edm {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 97%;
+}
+
+.fa-facebook-f {
+  padding: 5px;
+}
+
+.footer-social-media a:first-child {
+  margin-left: 0;
+}
+
+.footer-align {
+  margin-right: 31px;
+}
+
+.footer-days {
+  margin-left: 40px;
+}
+
+.footer-info {
+  margin-left: 116px;
+}
+
+.footer-edm {
+  margin-left: 100px;
+}
