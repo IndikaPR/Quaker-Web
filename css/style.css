@@ -617,3 +617,18 @@ footer .container .row {
   display: flex;
   justify-content: space-around;
 }
+
+.footer-website-by {
+  display: flex;
+  align-items: center;
+}
+
+.footer-website-by p {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 5px;
+}
+
+/* .footer-social-media a i {
+  border-radius: 50%;
+} */
