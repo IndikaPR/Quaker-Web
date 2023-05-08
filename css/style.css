@@ -260,9 +260,22 @@ main {
 /*SECTION-4*/
 /*///////////////////////////////*/
 
+.section-4 {
+  position: relative;
+}
+
 .service {
-  background: #f2f4f8;
   padding-top: 100px;
+}
+
+.service::before {
+  content: "";
+  position: absolute;
+  background: #f2f4f8;
+  top: 0;
+  width: 100%;
+  height: 91%;
+  z-index: -1;
 }
 
 .service-container {
