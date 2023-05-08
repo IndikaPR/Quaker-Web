@@ -262,12 +262,12 @@ main {
 
 .service {
   background: #f2f4f8;
-  padding-top: 100px;
+  padding-top: 150px;
 }
 
 .service-container {
   text-align: center;
-  margin-bottom: 100px;
+  margin-bottom: 0px;
 }
 
 .service-container h1 {
@@ -348,7 +348,7 @@ main {
 /*///////////////////////////////*/
 
 .section-5 {
-  margin-top: 50px;
+  margin-top: 270px;
   position: relative;
 }
 
@@ -535,7 +535,7 @@ footer .container .row {
 
 .footer-nav-flex {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .footer-nav-flex ul li {
